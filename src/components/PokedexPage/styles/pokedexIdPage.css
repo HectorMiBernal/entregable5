@@ -1,0 +1,75 @@
+.idpage{
+    border-radius: .8em;
+    border: .4em solid rgb(230, 98, 98);
+    background-color: rgb(255, 255, 255, .7);
+    margin:4rem ;
+    justify-content: center;
+    align-items: center;
+}
+.idpage__header{
+    text-align: center;
+
+}
+.idpage__image{
+    width: 55%;
+    max-width: 350px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-left: 50%;
+}
+.idpage__name, 
+.idpage__number{
+    border-radius: .4em;
+    background-color: rgb(238, 229, 229,.8);
+    margin: .7em;
+    font-size: 1.2rem;
+    align-items: center;
+    text-transform: uppercase;
+}
+.idpage__body{
+    align-items: center;
+    text-align: center;
+    position: inherit;
+    font-size: 1.1rem;
+    margin: 2em 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.idpage__title3{
+
+    border-radius: .7em;
+    font-weight: 700;
+    align-items: center;
+    text-transform: uppercase;
+}
+.idpage__typeinfo,
+.idpage__skillinfo  {
+ 
+    border-radius: .7em;
+    background-color: rgba(150, 140, 140, 0.8);
+    align-items: center;
+    text-transform: capitalize;
+}
+.idpage__title2{
+
+    font-size: 1.5em;
+    background-color: rgba(218, 92, 92, 0.3);
+    border-radius: .3em;
+    text-align: center;
+}
+.idpage__stats{
+    font-size: 1.3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 1em .7em;
+    text-transform: capitalize;
+}
+.idpage__moves{
+    font-size: .9rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin: .5rem;
+    text-transform: capitalize;
+}

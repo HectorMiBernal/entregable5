@@ -1,0 +1,14 @@
+.SelectTipe__div{
+    text-align: center;
+}
+.SelectTipe__select{
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: .6em;
+    border-radius: .5em;
+    border-bottom-left-radius: .5em;
+}
